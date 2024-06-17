@@ -1,12 +1,14 @@
 .footer {
-    display: flex;
-    flex-direction: row;
-    border-radius: .75rem;
-    border: #d0d7e1;
-    padding: 1 rem;
-    margin-right: 1rem;
-    align-items: center;
-    margin-top: auto;
-    color: transparent;
+    line-height: 1.6;
+    font-size: 1rem;
+    font-weight: 400;
+    --noto-sans: "__Noto_Sans_2e7f9a","__Noto_Sans_Fallback_2e7f9a";
+    --poppins: "__Poppins_9c579b","__Poppins_Fallback_9c579b";
+    box-sizing: border-box;
+    flex-grow: 0;
+    flex-shrink: 0;
+    min-width: 0;
+    flex-basis: 100%;
+    padding: 1rem; 
    
 }

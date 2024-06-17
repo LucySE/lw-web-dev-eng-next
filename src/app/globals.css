@@ -90,6 +90,8 @@ body {
   display:flex;
   flex-direction: column;
   color: rgb(var(--foreground-rgb));
+  flex-basis: 100%;
+  min-width: 0;
 }
 
 a {
@@ -102,3 +104,16 @@ a {
     color-scheme: dark;
   }
 }
+/* -webkit-font-smoothing: antialiased;
+-webkit-text-size-adjust: 100%;
+color: #293745;
+line-height: 1.6;
+font-size: 1rem;
+font-weight: 400;
+--noto-sans: "__Noto_Sans_2e7f9a","__Noto_Sans_Fallback_2e7f9a";
+--poppins: "__Poppins_9c579b","__Poppins_Fallback_9c579b";
+box-sizing: border-box;
+flex-grow: 0;
+flex-shrink: 0;
+min-width: 0;
+flex-basis: 100%; */
