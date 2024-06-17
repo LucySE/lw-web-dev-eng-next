@@ -1,0 +1,9 @@
+.ActionButton {
+ display: flex;
+  background-color: #ffffff;
+  padding: 0.25rem 0.75rem;
+  border-color: #6559ff;
+  color: #293745;
+  border-radius: 1rem;
+  box-shadow: -.125rem 0 0 #6559ff;
+}
