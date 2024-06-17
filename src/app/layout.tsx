@@ -2,6 +2,10 @@ import type { Metadata } from 'next'
 import './globals.css'
 import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer'
+import SideBar from './components/SideBar/SideBar'
+import ActionButton from './components/ActionButton/ActionButton'
+import ArticleContent from './components/ArticleContent/ArticleContent'
+
 
 
 export const metadata: Metadata = {
@@ -18,7 +22,11 @@ export default function RootLayout({
     <html lang="en">
       <body>
       <NavBar />
-     
+      <ActionButton />
+      <ArticleContent />
+      <SideBar />
+    
+    
         {children}
         <Footer /> 
         </body>

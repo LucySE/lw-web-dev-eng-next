@@ -1,4 +1,5 @@
-.ArticleContent{
+.sidebar {
+   
     color: #293745;
     line-height: 1.6;
     font-size: 1rem;
@@ -6,8 +7,9 @@
     --noto-sans: "__Noto_Sans_2e7f9a","__Noto_Sans_Fallback_2e7f9a";
     --poppins: "__Poppins_9c579b","__Poppins_Fallback_9c579b";
     box-sizing: border-box;
-    flex-grow: 0;
-    flex-shrink: 0;
-    min-width: 0;
-    flex-basis: 75%;
+    position: sticky;
+    top: 6rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    
 }

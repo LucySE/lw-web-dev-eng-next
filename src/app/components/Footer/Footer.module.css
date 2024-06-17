@@ -1,4 +1,12 @@
 .footer {
-    background-color: #ffffff;
-    padding: 1.5rem 0;;
+    display: flex;
+    flex-direction: row;
+    border-radius: .75rem;
+    border: #d0d7e1;
+    padding: 1 rem;
+    margin-right: 1rem;
+    align-items: center;
+    margin-top: auto;
+    color: transparent;
+   
 }

@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
    <>
    <div className={styles.navbar}>
-   <Image src={scLogo} alt="SafetyCulture Logo"/>
+   <Image src={scLogo} alt="SafetyCulture Logo" width={200} height={30}/>
    </div>
     </>
 
